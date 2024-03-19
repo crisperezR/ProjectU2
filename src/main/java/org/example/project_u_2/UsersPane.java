@@ -57,10 +57,17 @@ public class UsersPane extends AnchorPane {
     public int getIndex(){
         return table.getSelectionModel().getSelectedIndex();
     }
-
     public void eliminateSelected(){
         int index = table.getSelectionModel().getSelectedIndex();
         table.getItems().remove(index);
+    }
+    public boolean doesUserExistWithId(String userId) {
+        for (User user : table.getItems()) {
+            if (user.getUId().equals(userId)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void setAddAction(EventHandler<ActionEvent> handler){this.add.setOnAction(handler);}

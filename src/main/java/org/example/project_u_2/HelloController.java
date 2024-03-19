@@ -89,7 +89,13 @@ public class HelloController {
         modifyBooks.setButtonText("Modificar");
         modifyBooks.setOnAction(event -> {pane.setCenter(books);});
 
-        lending.setOnAction(event -> {});
+        lending.setOnAction(event -> {
+            if(users.doesUserExistWithId(lending.getIdUserText()) && books.doesBookExistWithId(lending.getIdBookText())){
+                Lending len = new Lending(lending.getIdUserText(), lending.getIdBookText());
+                lending.clearAll();
+                System.out.println("Creado correctamente");
+            }
+        });
         returns.setOnAction(event -> {});
     }
 }

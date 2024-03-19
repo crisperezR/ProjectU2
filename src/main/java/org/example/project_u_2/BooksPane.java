@@ -61,6 +61,14 @@ public class BooksPane extends AnchorPane {
     public int getIndex(){
         return table.getSelectionModel().getSelectedIndex();
     }
+    public boolean doesBookExistWithId(String bookId) {
+        for (Book book : table.getItems()) {
+            if (book.getBId().equals(bookId)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
     public void setAddAction(EventHandler<ActionEvent> handler){this.add.setOnAction(handler);}
     public EventHandler<ActionEvent> getAddAction(){return this.add.getOnAction();}

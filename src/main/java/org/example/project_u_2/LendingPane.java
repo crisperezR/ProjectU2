@@ -31,6 +31,10 @@ public class LendingPane extends AnchorPane {
     public String getIdUserText(){return idUser.getText();}
     public void setIdBookText(String text){idBook.setText(text);}
     public String getIdBookText(){return idBook.getText();}
+    public  void clearAll(){
+        idUser.clear();
+        idBook.clear();
+    }
     public void setButtonText(String buttonText){this.button.setText(buttonText);}
     public String getButtonText(){return this.button.getText();}
     public void setOnAction(EventHandler<ActionEvent> handler){this.button.setOnAction(handler);}
