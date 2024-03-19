@@ -1,0 +1,103 @@
+.name-label{
+    -fx-font-family: "Roboto Black";
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 35px;
+}
+
+.title-label{
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+
+.paneTitle{
+    -fx-background-color: #4EB8DE;
+}
+
+.button-close{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-font-size: 15px;
+}
+
+.button-close:hover{
+    -fx-background-color: RED;
+    -fx-text-fill: WHITE;
+}
+
+.menu-bar{
+    -fx-background-color: #00418b;
+}
+
+.menu-btn{
+    -fx-background-color: #0086BE;
+    -fx-background-radius: 0;
+    -fx-font-size: 20px;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: white;
+}
+
+.menu-btn:hover{
+    -fx-border-width: 0 0 3 0;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.menu-btn:focused{
+    -fx-border-width: 0 0 3 0;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.buttons{
+    -fx-background-color: #0086BE;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Roboto Black";
+}
+
+.buttons:hover{
+    -fx-background-color: #2980b9;
+}
+
+.buttons:pressed{
+    -fx-background-color: #005D8B;
+}
+
+.label-text{
+    -fx-font-family: "Roboto";
+    -fx-font-size: 13px;
+}
+
+.label-section{
+    -fx-font-family: "Roboto";
+    -fx-font-size: 20px;
+}
+
+.label-text-black{
+    -fx-font-family: "Roboto Black";
+    -fx-font-size: 13px;
+}
+
+.label-date{
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+
+.label-field{
+    -fx-font-family: "Roboto";
+    -fx-font-size: 16px;
+}
+
+.field{
+    -fx-border-style: none none solid none;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #005D8B;
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-pref-height: 30px;
+}

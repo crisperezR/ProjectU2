@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="455.0" prefWidth="700.0" style="-fx-background-color: white;" stylesheets="@styles.css" type="AnchorPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView fitHeight="260.0" fitWidth="254.0" layoutX="446.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" smooth="false" AnchorPane.topAnchor="76.0">
+        <Image url="@images/336799ebb339821f342bc5a13386aff2.jpg" />
+    </ImageView>
+    <Label layoutX="31.0" layoutY="76.0" prefHeight="40.0" prefWidth="407.0" styleClass="label-text" text="Sistema de Gestión para Biblioteca Pública. Controle y administre de forma óptima y fácil el flujo de préstamos y devoluciones de Libros." wrapText="true" />
+    <Label layoutX="31.0" layoutY="116.0" prefHeight="40.0" prefWidth="490.0" styleClass="label-text" text="Esta herramienta le permitirá llevar un control completo y detallado de su Biblioteca , tendrá acceso a herramientas especiales para tareas específicas, como lo son:" wrapText="true" />
+    <Label layoutX="31.0" layoutY="162.0" prefHeight="122.0" prefWidth="283.0" styleClass="label-text" text="• Préstamos&#10;• Devoluciones&#10;• Registro de Usuarios y Libros Nuevos&#10;• Edición de Usuarios y Libros existentes&#10;• Eliminar todo tipo de Registros&#10;• Sección de Reportes de acciones en el sistema" wrapText="true" />
+    <Label layoutX="38.0" layoutY="34.0" prefHeight="25.0" prefWidth="98.0" styleClass="label-section" text="Bienvenido" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+</fx:root>

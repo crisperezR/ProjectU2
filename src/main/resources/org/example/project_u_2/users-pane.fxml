@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root type="AnchorPane" prefHeight="455.0" prefWidth="700.0" style="-fx-background-color: white;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="380.0" prefWidth="674.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="55.0">
+        <columns>
+            <TableColumn fx:id="idCol" prefWidth="115.0" text="ID" />
+            <TableColumn fx:id="nameCol" prefWidth="115.0" text="Nombre" />
+            <TableColumn fx:id="lName1Col" prefWidth="115.0" text="Apellido P." />
+            <TableColumn fx:id="lName2Col" prefWidth="115.0" text="Apellido M." />
+            <TableColumn fx:id="addressCol" prefWidth="115.0" text="Domicilio" />
+            <TableColumn fx:id="phoneCol" prefWidth="115.0" text="Teléfono" />
+        </columns>
+    </TableView>
+    <Button fx:id="add" layoutX="471.0" layoutY="392.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" styleClass="buttons" text="Añadir" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="150.0" />
+    <Button fx:id="modify" layoutX="571.0" layoutY="410.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" styleClass="buttons" text="Editar" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="80.0" />
+    <Button fx:id="eliminate" layoutX="634.0" layoutY="392.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" styleClass="buttons" text="Borrar" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+    <Label layoutX="14.0" layoutY="25.0" styleClass="label-section" text="Usuarios" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+</fx:root>
