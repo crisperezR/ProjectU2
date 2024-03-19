@@ -51,6 +51,13 @@ public class UsersPane extends AnchorPane {
         table.getItems().add(user);
     }
 
+    public User getTable(int index){
+        return table.getItems().get(index);
+    }
+    public int getIndex(){
+        return table.getSelectionModel().getSelectedIndex();
+    }
+
     public void eliminateSelected(){
         int index = table.getSelectionModel().getSelectedIndex();
         table.getItems().remove(index);
